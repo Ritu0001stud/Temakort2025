@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="./resources/ol.css">
+        <link rel="stylesheet" href="resources/fontawesome-all.min.css">
+        <link href="resources/photon-geocoder-autocomplete.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="./resources/ol-layerswitcher.css">
+        <link rel="stylesheet" href="./resources/qgis2web.css">
+        <style>
+        html, body {
+            background-color: #ffffff;
+        }
+        .ol-control > * {
+            background-color: #f8f8f8!important;
+            color: #444444!important;
+            border-radius: 0px;
+        }
+        .ol-attribution a, .gcd-gl-input::placeholder, .search-layer-input-search::placeholder {
+            color: #444444!important;
+        }
+        .search-layer-input-search {
+            background-color: #f8f8f8!important;
+        }
+        .ol-control > *:focus, .ol-control >*:hover {
+            background-color: rgba(248, 248, 248, 0.7)!important;
+        } 
+        .ol-control {
+            background-color: rgba(255,255,255,.4) !important;
+            padding: 2px !important;
+        } 
+        </style>
+
+        <style>
+        html, body, #map {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="map">
+            <div id="popup" class="ol-popup">
+                <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+                <div id="popup-content"></div>
+            </div>
+        </div>
+        <script src="resources/qgis2web_expressions.js"></script>
+        <script src="./resources/functions.js"></script>
+        <script src="./resources/ol.js"></script>
+        <script src="./resources/ol-layerswitcher.js"></script>
+        <script src="resources/photon-geocoder-autocomplete.min.js"></script>
+        <script src="layers/Lokalplanvedtaget_1.js"></script><script src="layers/Lokalplanforslag_2.js"></script><script src="layers/Strandbeskyttelseny_3.js"></script><script src="layers/Kommuneplan_4.js"></script><script src="layers/Genbrugsplads_5.js"></script><script src="layers/Kirker_6.js"></script><script src="layers/Legeplads_7.js"></script><script src="layers/Lgehus_8.js"></script><script src="layers/Parker_9.js"></script><script src="layers/Plejehjem_10.js"></script><script src="layers/Sygehus_11.js"></script><script src="layers/Togstationer_12.js"></script><script src="layers/Uddanlesesteder_13.js"></script><script src="layers/Fodboldbaner_14.js"></script><script src="layers/Badestrand_15.js"></script><script src="layers/Brnehaver_16.js"></script><script src="layers/Folkeskoler_17.js"></script><script src="layers/Elladestandere_18.js"></script><script src="layers/Havn_19.js"></script><script src="layers/HvidovreApotek_20.js"></script><script src="layers/Hvidovrekommune_21.js"></script><script src="layers/HvidovreRdhus_22.js"></script><script src="layers/Kirkegrde_23.js"></script><script src="layers/Resturanter_24.js"></script><script src="layers/Supermarkeder_25.js"></script><script src="layers/Svmmehaler_26.js"></script><script src="layers/Tankstationer_27.js"></script>
+        <script src="styles/Lokalplanvedtaget_1_style.js"></script><script src="styles/Lokalplanforslag_2_style.js"></script><script src="styles/Strandbeskyttelseny_3_style.js"></script><script src="styles/Kommuneplan_4_style.js"></script><script src="styles/Genbrugsplads_5_style.js"></script><script src="styles/Kirker_6_style.js"></script><script src="styles/Legeplads_7_style.js"></script><script src="styles/Lgehus_8_style.js"></script><script src="styles/Parker_9_style.js"></script><script src="styles/Plejehjem_10_style.js"></script><script src="styles/Sygehus_11_style.js"></script><script src="styles/Togstationer_12_style.js"></script><script src="styles/Uddanlesesteder_13_style.js"></script><script src="styles/Fodboldbaner_14_style.js"></script><script src="styles/Badestrand_15_style.js"></script><script src="styles/Brnehaver_16_style.js"></script><script src="styles/Folkeskoler_17_style.js"></script><script src="styles/Elladestandere_18_style.js"></script><script src="styles/Havn_19_style.js"></script><script src="styles/HvidovreApotek_20_style.js"></script><script src="styles/Hvidovrekommune_21_style.js"></script><script src="styles/HvidovreRdhus_22_style.js"></script><script src="styles/Kirkegrde_23_style.js"></script><script src="styles/Resturanter_24_style.js"></script><script src="styles/Supermarkeder_25_style.js"></script><script src="styles/Svmmehaler_26_style.js"></script><script src="styles/Tankstationer_27_style.js"></script>
+        <script src="./layers/layers.js" type="text/javascript"></script> 
+        <script src="./resources/Autolinker.min.js"></script>
+        <script src="./resources/qgis2web.js"></script>        
+    </body>
+</html>
